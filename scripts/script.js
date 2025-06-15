@@ -10,7 +10,7 @@ const paintings = JSON.parse(content);
 
    function generateThumbList(list, paintings) {
     
-    // in this section we loop thru list of paintings and create <li><img></li>
+    // in this section we loop through list of paintings and create <li><img></li>
     for (p of paintings) {
        const item = document.createElement('li');
        const thumb = document.createElement('img');
