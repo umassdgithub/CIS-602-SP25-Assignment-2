@@ -70,22 +70,6 @@ style.css
 README.md
 ```
 
-
-### Project Structure
-
-```plaintext
-index.html
-scripts/
-  └── script.js  <-- Complete your JavaScript code here
-images/
-  ├── small/     <-- Thumbnails
-  └── large/     <-- Large painting images
-data/
-  └── paintings.json  <-- Paintings metadata
-style.css
-README.md
-```
-
 ## Final Look
 
 The finalized code, should look like the screen recording below:
