@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     
-   const paintings = JSON.parse(content);
+   const paintings = content; //JSON.parse(content); content is already in json format.
    const details = document.querySelector("#details");
    const list = document.querySelector("#paintings ul");
    const figure = document.querySelector("#details figure");
